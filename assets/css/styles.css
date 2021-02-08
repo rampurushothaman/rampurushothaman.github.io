@@ -164,7 +164,7 @@ img {
   top: 0;
   left: -100%;
   width: 90%;
-  height: 100vh;
+  height: 100%;
   padding: 3rem;
   display: flex;
   align-items: center;
@@ -323,7 +323,7 @@ img {
 .about__img {
   width: 150px;
   border-radius: 0.5rem;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .about__information {
@@ -449,6 +449,7 @@ img {
 .education__data {
   text-align: right;
   margin-right: 1.5rem;
+  margin-bottom: var(--mb-5);
 }
 
 .education__time {
